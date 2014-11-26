@@ -9,7 +9,7 @@ Make log message tablized. The API can make easy to layout message like instert 
 		TablizeMessage ts = new TablizeMessage(columns, numCharsInColumns, gridding);
 		
 		String[] row = new String[]{"Document", "Primary language", "Failed", 
-				"Setting the document language in a PDF enables some screen readers to switch to the 						appropriate language."};
+				"Setting the document language in a PDF enables some screen readers to switch to the appropriate language."};
 		ts.addRow(row);
 		ts.addRow(row);
 		ts.addRow(row);
