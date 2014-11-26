@@ -16,7 +16,7 @@ Make log message tablized. The API can make easy to layout message like instert 
 		
 		System.out.println(ts.getTablizedString());
 
-Example output:
+Example output: 
 --------------------------------------------------------------------------------------------------------
 |      Category      |        Rule        |       Status       |                Explain                 |
 --------------------------------------------------------------------------------------------------------
