@@ -17,20 +17,6 @@ Make log message tablized. The API can make easy to layout message like instert 
 		System.out.println(ts.getTablizedString());
 
 Example output: 
---------------------------------------------------------------------------------------------------------
-|      Category      |        Rule        |       Status       |                Explain                 |
---------------------------------------------------------------------------------------------------------
-|Document            |Primary language    |Failed              |Setting the document language in a PDF  |
-|                    |                    |                    | enables some screen readers to switch  |
-|                    |                    |                    | to the appropriate language.           |
---------------------------------------------------------------------------------------------------------
-|Alternate Text      |Link alternate text |Failed              |Link alternate text                     |
-|                    |                    |                    |                                        |
---------------------------------------------------------------------------------------------------------
-|Page Content        |Logical reading     |Needs manual check  |Logical reading order                   |
-|                    | order              |                    |                                        |
---------------------------------------------------------------------------------------------------------
-
-
-
+----------------
+![Example of TablizeMessage](https://raw.githubusercontent.com/lumpchen/TablizeMessage/master/src/sample.png)
 
