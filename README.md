@@ -8,9 +8,8 @@ Make log message tablized. The API can make easy to layout message like instert 
 		boolean gridding = true;
 		TablizeMessage ts = new TablizeMessage(columns, numCharsInColumns, gridding);
 		
-		String[] row = new String[]{"vCategory vCategory wCategory", "vRule", "vStatus", 
-				"Explain,Category,Category,Category,wwCategory,CategoryExplain,Category," +
-				"Category,Category,wwCategory,CategoryExplain,Category,Category,Category,wwCategory,Category"};
+		String[] row = new String[]{"Document", "Primary language", "Failed", 
+				"Setting the document language in a PDF enables some screen readers to switch to the 						appropriate language."};
 		ts.addRow(row);
 		ts.addRow(row);
 		ts.addRow(row);
@@ -18,19 +17,19 @@ Make log message tablized. The API can make easy to layout message like instert 
 		System.out.println(ts.getTablizedString());
 
 Example output:
----------------------------------------------------------------------------------------------------------------------------------------
-|      Category      |        Rule        |       Status       |        Page&Tip Text         |                Explain                 |
----------------------------------------------------------------------------------------------------------------------------------------
-|Document            |Primary language    |Failed              |@Page 0                       |Setting the document language in a PDF  |
-|                    |                    |                    |                              | enables some screen readers to switch  |
-|                    |                    |                    |                              | to the appropriate language.           |
----------------------------------------------------------------------------------------------------------------------------------------
-|Alternate Text      |Link alternate text |Failed              |@Page 1 nearby "Go to         |Link alternate text                     |
-|                    |                    |                    | xPression!"                  |                                        |
----------------------------------------------------------------------------------------------------------------------------------------
-|Page Content        |Logical reading     |Needs manual check  |@Page 2                       |Logical reading order                   |
-|                    | order              |                    |                              |                                        |
----------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------
+|      Category      |        Rule        |       Status       |                Explain                 |
+--------------------------------------------------------------------------------------------------------
+|Document            |Primary language    |Failed              |Setting the document language in a PDF  |
+|                    |                    |                    | enables some screen readers to switch  |
+|                    |                    |                    | to the appropriate language.           |
+--------------------------------------------------------------------------------------------------------
+|Alternate Text      |Link alternate text |Failed              |Link alternate text                     |
+|                    |                    |                    |                                        |
+--------------------------------------------------------------------------------------------------------
+|Page Content        |Logical reading     |Needs manual check  |Logical reading order                   |
+|                    | order              |                    |                                        |
+--------------------------------------------------------------------------------------------------------
 
 
 
