@@ -1,4 +1,4 @@
-package me.lumpchen.TablizeMessage;
+package me.lumpchen.util;
 
 import java.util.ArrayList;
 import java.util.List;

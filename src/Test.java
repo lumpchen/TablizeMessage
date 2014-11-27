@@ -1,4 +1,4 @@
-package me.lumpchen.TablizeMessage;
+import me.lumpchen.util.TablizeMessage;
 
 public class Test {
 	public static void main(String[] args) {
