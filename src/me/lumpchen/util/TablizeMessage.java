@@ -252,7 +252,7 @@ public class TablizeMessage {
 		for (int i = s.length() - 1; i >= 0; i--) {
 			char c = s.charAt(i);
 			if (Character.isWhitespace(c)) {
-				if (i <= segNum) {
+				if (i > 0 && i <= segNum) {
 					return s.substring(0, i);
 				}
 			}
